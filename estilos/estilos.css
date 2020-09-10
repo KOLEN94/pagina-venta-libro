@@ -1,0 +1,606 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    font-family: 'Lato', sans-serif;
+}
+.icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+
+#inicio {
+    background: #f7f7f7;
+    background-size: cover;
+    padding-top: 15vh;
+    min-height: 15vh;
+    padding-bottom:10vh;
+}
+.nav-item a {
+    margin-left: 60px;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #000;
+    padding: 10px 0;
+}
+ .nav-item a:active{
+    color:red!important;
+}
+.navbar-nav .nav-item:hover>.nav-link {
+    color: red!important;
+}
+.nav-item a:hover{
+    color:red!important;
+}
+.bloque-inicio{
+    padding: 50px;
+}
+.padding-bottom-null {
+    padding-bottom: 0 !important;
+}
+.subtitulo{
+    color: red;
+    font-size: 30px;
+}
+.btn-alt {
+    padding: 0;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 14px;
+    margin-right:15px;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    overflow: hidden;
+    outline: none;
+    border-radius: 2px;
+    font-weight: 400;
+    color: white;
+    position: relative;
+    transition: all .4s ease;
+    background-color: #E84C3D;
+}
+.btn-formulario {
+    padding: 0;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 14px;
+    margin-right:15px;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    overflow: hidden;
+    outline: none;
+    border-radius: 2px;
+    font-weight: 400;
+    color: white;
+    position: relative;
+    transition: all .4s ease;
+    background-color: #E84C3D;
+    border: none;
+}
+.btn-formulario:hover{
+    background-color: #000;
+    color: white;
+    text-decoration:none;
+}
+.btn-alt:hover{
+    background-color: #000;
+    color: white;
+    text-decoration:none;
+}
+.btn-alt.active {
+    background-color: transparent;
+    border: 1px solid #000;
+    color: #000;
+}
+.btn-alt.active:hover{
+    background-color: #000;
+    border: 1px solid #000;
+    color: white;
+    text-decoration:none;
+}
+
+.menuprincipal{
+    background: #f7f7f7;
+}
+.libro01 {
+    padding: 10px;
+}
+.in{
+    box-shadow: 0px 4px 8px 0px #0000004f;
+}
+ul{list-style:none;}
+.lista {
+    padding-left: 5px;
+    padding-bottom: 35px;
+}
+.lista li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+}
+.lista li::before{
+	font-family:"Font Awesome 5 Free";
+	content:"\f152";
+    margin-right:8px;
+    color: red;
+}
+.contenido-inicio p{
+    padding-bottom: 35px;
+    font-weight: 300;
+}
+.imagen-producto {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+    box-shadow: 0px 4px 14px 0px #000000a1;
+}
+#libro02{
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+.titulo-informacion{
+    padding-bottom: 40px;
+}
+.card{
+    padding: 20px;
+    box-shadow: 0 2px 35px 0 rgba(0, 0, 0, 0.1);
+    border: none;
+}
+.caja-info{
+    display: flex;
+    justify-content: center;
+    
+}
+.card-title{
+    font-size: 20px;
+    font-weight: 300;
+}
+.card-text{
+    font-size: 14px;
+    color: #757575;
+    font-weight: 300;
+}
+.icono-servicio{
+    font-size: 35px;
+    padding-left: 16px;
+    color: blue;
+}
+#descargar{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f7f7f7;
+}
+.libroabierto{
+    max-width: 100%;
+}
+.ladoderecho{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.formulario01{
+    padding-left: 50px;
+}
+.titulodescargar{
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+.cuerpodescargar{
+    font-size: 14px;
+    color: #757575;
+    font-weight: 300;
+}
+#testimonios{
+    padding-top: 80px;
+    padding-bottom: 120px;
+    background: #fff;
+}
+.titulo-testimonio{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.carousel-container p{
+    color: #757575;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    font-style: italic;
+}
+.testimonial-user {
+    max-width: 240px;
+    margin: 0 auto;
+    text-align: left;
+}
+.testimonial-user h6 {
+    margin-bottom: 0px;
+}
+.testimonial-user span {
+    font-size: 12px;
+}
+.carousel-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.testimonial-user img {
+    border-radius: 50%;
+    max-width: 50px;
+    text-align: center;
+}
+.boton-control img{
+    max-width: 30%;
+}
+hr{
+    margin: 0;
+    border: 2px;
+    border-top: 1px solid #eee;
+    border-color: rgba(151, 151, 151, 0.44);
+}
+#autor{
+    background: #fff;
+    padding-bottom:75px;
+}
+.autor-seccioninterna{
+    padding-top: 75px;
+    
+}
+.persona{
+    display: flex;
+    justify-content: center;
+}
+.ficha-persona img {
+    display: block;
+    max-width: 20%;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ficha-persona h3{
+    text-align: center;
+    padding-top: 25px;
+    font-weight: 400;
+}
+.ficha-persona p {
+    text-align: center;
+    color: #757575;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 300;
+}
+.autor-datos{
+    padding: 50px;
+}
+.autor-datos p {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 16px;
+    font-weight: 300;
+}
+.final-ficha{
+    text-align: center;
+}
+#preguntas-frecuentes{
+    background: #2D3E50;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    color: #D9D9D9;
+}
+.titulo-preguntas h3{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+.preguntas{
+    padding: 50px;
+}
+.interrogacion{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    
+}
+.respuesta {
+    font-size: 16px;
+    font-weight: 300;
+}
+#footer{
+    background-color: #192431;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.social{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.48);
+    font-size: 30px;
+} 
+.social li {
+    padding: 0 20px;
+}
+.creditos {
+    color: rgba(255, 255, 255, 0.48);
+    text-align: center;
+}
+@media (max-width: 768px){
+    #inicio {
+        padding-bottom: 5vh;
+    }
+    .tituloinicio {
+        font-size: 30px;
+    }
+    .subtitulo {
+        font-size: 20px;
+        margin-bottom: 20px;
+    } 
+    .contenido-inicio p {
+        font-size: 12px;
+    }
+    .lista {
+        padding-bottom:0px;
+    }
+    .lista li {
+        font-size: 11px;
+    }
+    .btn-alt{
+        height: 30px;
+        font-size: 8px;
+        line-height: 30px;
+    }
+    .contenido-inicio p{
+        padding-bottom:0px;
+    }
+    .titulo-informacion {
+        font-size: 25px;
+    }
+    .card-body{
+        padding:0.25rem;
+    }
+    .card-text{
+        font-size:12px;
+    }
+    .libroabierto{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .titulodescargar{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .cuerpodescargar{
+        font-size: 12px;
+    }
+    .carousel-container{
+        max-width:530px;
+    }
+    .carousel-container p{
+        font-size: 14px;
+    }
+    .ficha-persona h3{
+        font-size: 24px;
+    }
+    .ficha-persona p{
+        font-size: 17px;
+    }
+    .autor-datos{
+        padding: 40px;
+    }
+    .autor-datos p{
+        font-size: 12px;
+    }
+    .autor-seccioninterna{
+        padding-top:65px;
+        padding-bottom: 15px;
+    }
+    .final-ficha{
+        font-size: 12px;
+    }
+    #preguntas-frecuentes{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .titulo-preguntas h3{
+        font-size: 24px;
+    }
+    .preguntas{
+        padding: 30px;
+    }
+    .interrogacion{
+        font-size: 15px;
+    }
+    .respuesta{
+        font-size: 12px;
+    }
+    #footer{     
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .social{
+        font-size: 20px;
+    }
+    .social li {
+        padding: 0 10px;
+    }
+    .creditos p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 425px){
+    .menuprincipal{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    }
+    .bsnav-mobile .navbar{
+        background: #f7f7f7;
+    }
+    .tituloinicio{
+        font-size: 27px;
+        text-align: center;
+    }
+    .subtitulo{
+        font-size: 17px;
+        padding-top: 15px;
+    }
+    .contenido-inicio p{
+        font-size: 13px;
+    }
+    .lista li {
+        font-size: 12px;
+    }
+    .titulo-informacion{
+        text-align: center;
+    }
+    .icono-servicio{
+        text-align: center;
+    }
+    .card-title{
+        text-align: center;
+    }
+    .caja-info{
+        padding-bottom:30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .titulodescargar{
+        text-align: center;
+    } 
+    .carousel-container{
+        max-width:330px;
+    }
+    .list-inline {
+        text-align: center;
+    }
+    .carousel-container p {
+        font-size: 12px;
+    }
+    .boton-control img {
+        max-width: 55%;
+    }
+    .carousel-indicators{
+        display: none;
+    }
+    .testimonial-user{
+        max-width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #autor{
+        padding-bottom: 45px;
+    }
+    .ficha-persona img{
+        max-width: 30%;
+    }
+    .autor-seccioninterna{
+        padding-top: 45px;
+    }
+    .ficha-persona p{
+        font-size: 14px;
+    }
+    .autor-datos{
+        padding: 20px;
+    }
+    #preguntas-frecuentes{
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }   
+    .creditos p {
+        font-size: 12px;
+    }
+}
+@media (max-width: 370px){
+    .menuprincipal{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    }
+    .bsnav-mobile .navbar{
+        background: #f7f7f7;
+    }
+    .tituloinicio{
+        font-size: 27px;
+        text-align: center;
+    }
+    .subtitulo{
+        font-size: 17px;
+        padding-top: 15px;
+    }
+    .contenido-inicio p{
+        font-size: 13px;
+    }
+    .lista li {
+        font-size: 12px;
+    }
+    .titulo-informacion{
+        text-align: center;
+    }
+    .icono-servicio{
+        text-align: center;
+    }
+    .card-title{
+        text-align: center;
+    }
+    .caja-info{
+        padding-bottom:30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .titulodescargar{
+        text-align: center;
+    } 
+    .carousel-container{
+        max-width:330px;
+    }
+    .list-inline {
+        text-align: center;
+    }
+    .carousel-container p {
+        font-size: 12px;
+    }
+    .boton-control img {
+        max-width: 55%;
+    }
+    .carousel-indicators{
+        display: none;
+    }
+    .testimonial-user{
+        max-width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #autor{
+        padding-bottom: 45px;
+    }
+    .ficha-persona img{
+        max-width: 30%;
+    }
+    .autor-seccioninterna{
+        padding-top: 45px;
+    }
+    .ficha-persona p{
+        font-size: 14px;
+    }
+    .autor-datos{
+        padding: 20px;
+    }
+    #preguntas-frecuentes{
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }   
+    .creditos p {
+        font-size: 12px;
+    }
+}
